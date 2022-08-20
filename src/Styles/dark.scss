@@ -1,0 +1,128 @@
+.app.dark {
+  min-height: 100vh;
+  background-color: #111;
+  color: aliceblue;
+
+  .dataGrid {
+    .exactTable {
+      background-color: #111;
+      color: aliceblue;
+      stroke: white;
+      border: none;
+      .view{
+        color:rgb(246, 198, 246);
+        &:hover{
+            background-color: purple;
+        }
+      }
+      .delete{
+        color:rgb(231, 219, 219);
+        &:hover{
+            background-color: rgba(103, 2, 2, 0.704);
+        }
+      }
+    }
+  }
+  .navbar {
+    .navbarWrap {
+      .left {
+        display: flex;
+        align-items: center;
+        height: 60%;
+        width: 40%;
+        gap: 4px;
+        border-radius: 15px;
+        padding-right: 10px;
+        border: 1px solid rgb(255, 255, 255);
+      }
+    }
+  }
+  .sidebar {
+    .title {
+      color: white;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      font-weight: bolder;
+      padding: 5px 10px;
+      border-radius: 30px;
+      max-width: max-content;
+      background: #7117f79e;
+    }
+    li {
+      padding: 3px 10px;
+      display: flex;
+      align-items: center;
+      justify-items: center;
+      border-radius: 30px;
+      color: whitesmoke;
+      cursor: pointer;
+      &:hover {
+        background-color: #d3b3ff37;
+      }
+    }
+  }
+  .inputs {
+    color: aliceblue;
+  }
+  .table {
+    background-color: #111;
+    .tableHead {
+      color: rgb(255, 255, 255);
+    }
+    .tableCell {
+      color: rgb(177, 177, 177);
+    }
+  }
+
+  .single {
+    .singleContainer {
+      .editButton{
+        color:rgb(255, 212, 18);
+        background-color: rgba(124, 105, 16, 0.26);
+
+      }
+        h1,p{
+            color: whitesmoke;
+        }
+        .top {
+            .left{
+             border: none;
+            }        
+          }   
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-button {
+  width: 3px;
+  height: 3px;
+}
+::-webkit-scrollbar-thumb {
+  background: #9431d7;
+  border: 9px none #ffffff;
+  border-radius: 26px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ab5aed;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #a012ed;
+}
+::-webkit-scrollbar-track {
+  background: #30284d;
+  border: 0px none #ffffff;
+  border-radius: 54px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #383838;
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}

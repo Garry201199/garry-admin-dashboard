@@ -1,0 +1,7 @@
+.home {
+  display: flex;
+}
+.home .homeContainer {
+  flex: 5;
+  min-height: 100vh;
+}/*# sourceMappingURL=Home.css.map */

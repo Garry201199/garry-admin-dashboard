@@ -1,0 +1,94 @@
+.single{
+    display:flex;
+    .singleContainer{
+        display: flex;
+        flex-direction: column;
+        flex: 5;
+
+        .bottom{
+            h1{
+                margin-left: 30px;
+                font-weight: bold;
+                color: #555;
+            }
+        }
+        .top{
+            display: flex;
+            .left{
+                flex:3;
+                position: relative;
+                border-radius: 15px;
+                margin: 20px;
+                padding: 30px;
+                border: 2px solid whitesmoke;
+                box-shadow: 5px 6px 14px 1px rgba(191,191,191,1);
+                -webkit-box-shadow: 5px 6px 14px 1px rgba(191,191,191,1);
+                -moz-box-shadow: 5px 6px 14px 1px rgba(191,191,191,1);
+
+                p{
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                    color: gray;
+                    margin-bottom: 20px;
+                }
+               .editButton{
+                position: absolute;
+                top: 0;
+                right:0;
+                padding: 10px;
+                font-size: 1rem;
+                border-radius: 15px ;
+                font-weight: 800;
+                color: purple;
+                cursor: pointer;
+                background-color: rgba(128, 0, 128, 0.245);
+               }
+               .item{
+                display: flex;
+                gap: 25px;
+                .itemImg{
+                    width: 150px;
+                    height: 150px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                    box-shadow: 0px 0px 40px 19px rgba(0,0,0,0.1);
+                }
+
+                .details{
+                    .itemTitle{
+                        margin-bottom: 10px;
+                        color: rgb(203, 203, 203);
+                        font-size: 1.5rem;
+                    }
+                    .detailItem{
+                        margin-bottom: 10px;
+                        
+                        .itemKey{
+                            font-size: 1.1rem;
+                            font-weight: bold;
+                            color: gray;
+                            margin-right: 10px;
+                        }
+                        .itemValue{
+                            font-size: 1rem;
+                            font-weight: 300;
+                        }
+                    }
+                }
+               }
+            }
+            .right{
+                flex:6;
+                margin: 20px;
+                border-radius: 30px;
+                // border: 2px solid whitesmoke;
+                // -webkit-box-shadow: 10px 10px 23px 6px rgba(214,214,214,1);
+                // -moz-box-shadow: 10px 10px 23px 6px rgba(214,214,214,1);
+                // box-shadow: 10px 10px 23px 6px rgba(214,214,214,1);
+                
+            }
+            
+        }
+    }
+
+}

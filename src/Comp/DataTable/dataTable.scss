@@ -1,0 +1,104 @@
+.dataGrid {
+  height: 100vh;
+  padding: 30px;
+  .link {
+    color: inherit;
+    text-decoration: inherit;
+  }
+  .top {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    box-shadow: 5px 6px 14px 1px rgba(191,191,191,1);
+-webkit-box-shadow: 5px 6px 14px 1px rgba(191,191,191,1);
+-moz-box-shadow: 5px 6px 14px 1px rgba(191,191,191,1);
+    .add {
+      box-shadow: 5px 6px 14px 1px rgba(191,191,191,1);
+-webkit-box-shadow: 5px 6px 14px 1px rgba(191,191,191,1);
+-moz-box-shadow: 5px 6px 14px 1px rgba(191,191,191,1);
+      padding: 10px;
+      border-radius: 15px;
+      border: none;
+      font-size: 1rem;
+      color: white;
+      font-weight: 600;
+      background-color: teal;
+      cursor: pointer;
+    }
+  }
+
+  .exactTable {
+
+    // border: 2px solid whitesmoke;
+    border-radius: 30px;
+    box-shadow: 5px 6px 14px 1px rgba(191,191,191,1);
+-webkit-box-shadow: 5px 6px 14px 1px rgba(191,191,191,1);
+-moz-box-shadow: 5px 6px 14px 1px rgba(191,191,191,1);
+
+    .cellWithImg {
+      display: flex;
+      align-items: center;
+      .cellImg {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+        object-fit: cover;
+      }
+    }
+    .cellWithStatus {
+      padding: 5px;
+      &.active {
+        background-color: rgba(19, 207, 19, 0.215);
+        color: green;
+        font-weight: bold;
+        border-radius: 10px;
+      }
+      &.passive {
+        background-color: rgba(185, 6, 86, 0.142);
+        color: rgb(121, 3, 56);
+        font-weight: bold;
+        border-radius: 10px;
+      }
+      &.pending {
+        background-color: rgba(248, 236, 12, 0.159);
+        color: rgb(216, 216, 13);
+        font-weight: bold;
+        border-radius: 10px;
+      }
+    }
+    .cellAction {
+      display: flex;
+      gap: 15px;
+      font-size: 1rem;
+      justify-content: space-between;
+      .view {
+        padding: 8px;
+        border-radius: 15px;
+        border: 2px solid rgba(182, 11, 182, 0.521);
+        color: purple;
+        font-weight: bold;
+        cursor: pointer;
+        &:hover {
+          background-color: rgba(206, 0, 206, 0.816);
+          color: white;
+        }
+      }
+      .delete {
+        padding: 8px;
+        border-radius: 15px;
+        border: 2px solid rgba(220, 20, 60, 0.5);
+        color: crimson;
+        font-weight: bold;
+        cursor: pointer;
+        &:hover {
+          background-color: crimson;
+          color: white;
+        }
+      }
+    }
+  }
+}

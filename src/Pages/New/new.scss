@@ -1,0 +1,95 @@
+.new {
+    width: 100%;
+    display: flex;
+    
+    .newContainer {
+      flex: 6;
+        
+      .top,
+      .bottom {
+        border-radius: 15px;
+        box-shadow: 5px 6px 14px 1px rgba(191,191,191,1);
+-webkit-box-shadow: 5px 6px 14px 1px rgba(191,191,191,1);
+-moz-box-shadow: 5px 6px 14px 1px rgba(191,191,191,1);
+        padding: 20px;
+        margin: 30px;
+        display: flex;
+  
+        h1 {
+          color: lightgray;
+          font-size: 1.5rem;
+        }
+  
+        .left {
+          flex: 1;
+          text-align: center;
+          
+          img {
+            width: 200x;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 5px 6px 14px 1px rgba(191,191,191,1);
+-webkit-box-shadow: 5px 6px 14px 1px rgba(191,191,191,1);
+-moz-box-shadow: 5px 6px 14px 1px rgba(191,191,191,1);
+          }
+        }
+  
+        .right {
+          flex: 2;
+  
+          form {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: space-around;
+  
+            .formInput {
+              width: 40%;
+                font-size: 1.2rem;
+              .inputTitle {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+  
+                
+              }
+              .inputs {
+                background-color: inherit;
+                width: 100%;
+                font-size: 1rem;
+                padding: 5px;
+                border: none;
+                border-bottom: 1px solid gray;
+                &:focus{
+                    border: none;
+                    outline: none;
+                border-bottom: 2px solid rgb(0, 137, 250);
+
+                }
+              }
+  
+              
+            }
+  
+            button {
+              width: 150px;
+              border-radius: 15px;
+              font-size: 1.2rem;
+              padding: 10px;
+              border: none;
+              background-color: rgb(245, 111, 255);
+              color: rgb(255, 255, 255);
+              &:hover{
+              background-color: rgb(241, 44, 255);
+
+              }
+              font-weight: bold;
+              cursor: pointer;
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+    }
+  }

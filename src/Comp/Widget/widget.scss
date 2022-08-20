@@ -1,0 +1,61 @@
+.widgetCard{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    gap:4px;
+    // border: 1px solid whitesmoke;
+    box-shadow: 5px 6px 14px 1px rgba(191,191,191,1);
+-webkit-box-shadow: 5px 6px 14px 1px rgba(191,191,191,1);
+-moz-box-shadow: 5px 6px 14px 1px rgba(191,191,191,1);
+;
+    padding: 20px;
+    .widgetTitle{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .title{
+            font-size: 1rem;
+            font-weight: 700;
+            color: lightslategray;
+        }
+        .percent{
+            &.positive{
+                color: green;
+
+            }
+            &.negative{
+                color: red;
+
+            }
+            display: flex;
+            align-items: center;
+            font-size: 1rem;
+            font-weight: bold ;
+        }
+        
+    }
+    .figures{
+        font-size: 2rem;
+        font-weight: lighter;
+        // color: black;
+        
+    }
+    .options{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .link{
+            // color: gray;
+            border-bottom: 2px solid gray;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+        .linkIcon{
+            padding: 6px;
+            border-radius: 30%;
+            
+        }
+    }
+}

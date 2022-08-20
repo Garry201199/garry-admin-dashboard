@@ -1,0 +1,31 @@
+.table{
+    
+    .tableHead{
+        font-size: 1.1rem;
+        font-weight:bold ;
+        color: gray
+    }
+   .tableCell{
+    font-size: 1rem;
+    color: gray
+;
+    .status{
+        padding: 5px;
+        font-weight: bold;
+        width: max-content;
+        border-radius: 10px;
+    }
+   }
+    .ceilWrapper{
+        display: flex;
+        font-size: 1rem;
+        .listImg{
+            margin-right: 20px;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+            background-color:rgba(245, 248, 70, 0.336);
+        }
+    }
+}

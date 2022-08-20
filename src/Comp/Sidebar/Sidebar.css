@@ -1,0 +1,74 @@
+.sidebar {
+  flex: 1;
+  min-height: 100vh;
+  border-right: 0.5px solid lightgray;
+  padding-left: 15px;
+}
+.sidebar .top {
+  display: flex;
+  direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  border-bottom: 0.5px solid lightgray;
+  cursor: pointer;
+}
+.sidebar .top p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.sidebar .mid ul {
+  list-style: none;
+}
+.sidebar .mid .title {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bolder;
+  color: rgb(14, 0, 18);
+}
+.sidebar .mid .icon {
+  font-size: 30px;
+  color: #A66CFF;
+  margin-right: 10px;
+}
+.sidebar .mid li {
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+.sidebar .mid li:hover {
+  background-color: #ede2fc;
+}
+.sidebar .title {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bolder;
+  color: rgb(14, 0, 18);
+}
+.sidebar .colorTheme {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+}
+.sidebar .colorTheme .colorOption {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid #7451f8;
+  cursor: pointer;
+  margin: 5px;
+}
+.sidebar .colorTheme .colorOption:nth-child(1) {
+  background-color: whitesmoke;
+}
+.sidebar .colorTheme .colorOption:nth-child(2) {
+  background-color: rgb(0, 0, 0);
+}
+.sidebar .colorTheme .colorOption:nth-child(3) {
+  background-color: rgb(16, 16, 19);
+}/*# sourceMappingURL=sidebar.css.map */
